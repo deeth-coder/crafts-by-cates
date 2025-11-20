@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Crafts by Cates{% endblock %}</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -22,13 +28,21 @@
                             800: '#292524',
                             900: '#1c1917',
                         },
-                        'clay': '#b07d62',
-                        'clay-dark': '#8a5e48',
-                        'cream': '#fcfbf9'
+                        'clay': {
+                            DEFAULT: '#b07d62',
+                            light: '#c69982',
+                            dark: '#8a5e48',
+                        },
+                        'cream': '#fcfbf9',
+                        'sand': '#f3f1ee',
                     },
                     fontFamily: {
-                        sans: ['Helvetica Neue', 'Arial', 'sans-serif'],
-                        serif: ['Georgia', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    boxShadow: {
+                        'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                        'glow': '0 0 15px rgba(176, 125, 98, 0.3)',
                     }
                 }
             }
@@ -45,11 +59,14 @@
             .animation-delay-400 {
                 animation-delay: 400ms;
             }
+            .glass {
+                @apply bg-white/70 backdrop-blur-lg border-b border-white/20;
+            }
         }
         body {
-            @apply bg-cream text-stone-800;
+            @apply bg-cream text-stone-800 antialiased;
         }
-        h1, h2, h3 {
+        h1, h2, h3, h4, h5, h6 {
             @apply font-serif;
         }
         
@@ -65,26 +82,26 @@
         }
         
         .animate-fade-in-up {
-            animation: fadeInUp 0.8s ease-out forwards;
+            animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
             opacity: 0; /* Start hidden */
         }
     </style>
 </head>
 <body class="flex flex-col min-h-screen">
     <!-- Navigation -->
-    <nav class="bg-white/80 backdrop-blur-md border-b border-stone-200 sticky top-0 z-50">
+    <nav class="glass sticky top-0 z-50 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
+            <div class="flex justify-between h-20">
                 <div class="flex">
                     <div class="flex-shrink-0 flex items-center">
-                        <a href="{{ url_for('main.home') }}" class="font-serif text-xl font-bold tracking-tight text-stone-800">Crafts by Cates</a>
+                        <a href="{{ url_for('main.home') }}" class="font-serif text-2xl font-bold tracking-tight text-stone-900 hover:text-clay transition-colors">Crafts by Cates</a>
                     </div>
                 </div>
-                <div class="hidden sm:ml-6 sm:flex sm:space-x-8 items-center">
-                    <a href="{{ url_for('main.home') }}" class="text-stone-600 hover:text-stone-900 px-3 py-2 text-sm font-medium">Home</a>
-                    <a href="{{ url_for('main.projects') }}" class="text-stone-600 hover:text-stone-900 px-3 py-2 text-sm font-medium">Projects</a>
-                    <a href="{{ url_for('main.blog_index') }}" class="text-stone-600 hover:text-stone-900 px-3 py-2 text-sm font-medium">Blog</a>
-                    <a href="#join" class="bg-stone-800 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-stone-700 transition-colors">Join List</a>
+                <div class="hidden sm:ml-6 sm:flex sm:space-x-10 items-center">
+                    <a href="{{ url_for('main.home') }}" class="text-stone-600 hover:text-stone-900 text-sm font-medium tracking-wide transition-colors">Home</a>
+                    <a href="{{ url_for('main.projects') }}" class="text-stone-600 hover:text-stone-900 text-sm font-medium tracking-wide transition-colors">Projects</a>
+                    <a href="{{ url_for('main.blog_index') }}" class="text-stone-600 hover:text-stone-900 text-sm font-medium tracking-wide transition-colors">Blog</a>
+                    <a href="#join" class="bg-stone-900 text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-clay transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">Join List</a>
                 </div>
                 <!-- Mobile menu button -->
                 <div class="-mr-2 flex items-center sm:hidden">
@@ -105,38 +122,39 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-stone-100 border-t border-stone-200 pt-12 pb-8">
+    <footer class="bg-stone-50 border-t border-stone-200 pt-16 pb-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="md:flex md:justify-between">
-                <div class="mb-8 md:mb-0">
-                    <h3 class="text-lg font-serif font-semibold text-stone-800">{{ copy.footer.site }}</h3>
-                    <p class="mt-2 text-sm text-stone-500">{{ copy.footer.tagline }}</p>
+                <div class="mb-8 md:mb-0 max-w-sm">
+                    <h3 class="text-xl font-serif font-bold text-stone-900">{{ copy.footer.site }}</h3>
+                    <p class="mt-4 text-sm text-stone-500 leading-relaxed">{{ copy.footer.tagline }}</p>
                 </div>
-                <div class="grid grid-cols-2 gap-8 sm:grid-cols-3">
+                <div class="grid grid-cols-2 gap-12 sm:grid-cols-3">
                     <div>
-                        <h3 class="text-sm font-semibold text-stone-600 tracking-wider uppercase">Social</h3>
-                        <ul role="list" class="mt-4 space-y-2">
+                        <h3 class="text-xs font-bold text-stone-900 tracking-widest uppercase">Social</h3>
+                        <ul role="list" class="mt-6 space-y-3">
                             {% for link in copy.footer.links[:5] %}
                             <li>
-                                <a href="{{ link.url }}" class="text-sm text-stone-500 hover:text-stone-900">{{ link.name }}</a>
+                                <a href="{{ link.url }}" class="text-sm text-stone-500 hover:text-clay transition-colors">{{ link.name }}</a>
                             </li>
                             {% endfor %}
                         </ul>
                     </div>
                     <div>
-                        <h3 class="text-sm font-semibold text-stone-600 tracking-wider uppercase">Legal</h3>
-                        <ul role="list" class="mt-4 space-y-2">
+                        <h3 class="text-xs font-bold text-stone-900 tracking-widest uppercase">Legal</h3>
+                        <ul role="list" class="mt-6 space-y-3">
                             {% for link in copy.footer.links[5:] %}
                             <li>
-                                <a href="{{ link.url }}" class="text-sm text-stone-500 hover:text-stone-900">{{ link.name }}</a>
+                                <a href="{{ link.url }}" class="text-sm text-stone-500 hover:text-clay transition-colors">{{ link.name }}</a>
                             </li>
                             {% endfor %}
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="mt-12 border-t border-stone-200 pt-8">
-                <p class="text-sm text-stone-400 text-center">{{ copy.footer.copyright }}</p>
+            <div class="mt-16 border-t border-stone-200 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm text-stone-400">{{ copy.footer.copyright }}</p>
+                <p class="text-sm text-stone-400 mt-2 md:mt-0">Designed with intention.</p>
             </div>
         </div>
     </footer>

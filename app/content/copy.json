@@ -12,7 +12,12 @@
       "Today, I craft garments, blankets, and home pieces that blend modern style with timeless comfort. Every stitch is a reminder to slow down, to create with care, and to build a wardrobe and home filled with pieces that truly matter.",
       "Whether I'm working on a chunky knit cardigan, a delicate crochet top, or a textured throw blanket, my focus is always the same: beautiful, functional, handmade pieces crafted to be loved for years to come."
     ],
-    "image": "/static/img/red-top-red-rocks.webp"
+    "images": [
+      "/static/img/red-top-red-rocks.webp",
+      "/static/img/red-top-2.webp",
+      "/static/img/hazel-top.webp",
+      "/static/img/pink-cardigan.webp"
+    ]
   },
   "join": {
     "h2": "Join the maker list—your inbox, but cozier",
@@ -43,14 +48,38 @@
     "site": "Crafts by Cates",
     "tagline": "Slow stitches, modern style",
     "links": [
-      {"name": "Instagram", "url": "https://www.instagram.com/catesbycrochets/"},
-      {"name": "TikTok", "url": "#"},
-      {"name": "Pinterest", "url": "#"},
-      {"name": "Ravelry", "url": "#"},
-      {"name": "YouTube", "url": "#"},
-      {"name": "Contact", "url": "mailto:hello@craftsbycates.com"},
-      {"name": "Privacy Policy", "url": "#"},
-      {"name": "Terms", "url": "#"}
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/catesbycrochets/"
+      },
+      {
+        "name": "TikTok",
+        "url": "#"
+      },
+      {
+        "name": "Pinterest",
+        "url": "#"
+      },
+      {
+        "name": "Ravelry",
+        "url": "#"
+      },
+      {
+        "name": "YouTube",
+        "url": "#"
+      },
+      {
+        "name": "Contact",
+        "url": "mailto:hello@craftsbycates.com"
+      },
+      {
+        "name": "Privacy Policy",
+        "url": "#"
+      },
+      {
+        "name": "Terms",
+        "url": "#"
+      }
     ],
     "copyright": "© 2025 Crafts by Cates. All rights reserved. Made with love, one stitch at a time."
   }
