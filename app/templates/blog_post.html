@@ -3,32 +3,37 @@
 {% block title %}{{ post.title }} - Crafts by Cates{% endblock %}
 
 {% block content %}
-<article class="bg-white min-h-screen pb-16">
+<article class="bg-stone-50 min-h-screen pb-24">
     <!-- Header Image -->
-    <div class="w-full h-64 md:h-96 overflow-hidden relative">
+    <div class="w-full h-96 md:h-[500px] overflow-hidden relative">
         <img src="{{ post.image }}" alt="{{ post.title }}" class="w-full h-full object-cover">
-        <div class="absolute inset-0 bg-stone-900/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-900/60 to-stone-900/10"></div>
     </div>
 
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 -mt-20 relative z-10">
-        <div class="bg-white p-8 md:p-12 rounded-lg shadow-xl">
-            <div class="text-center mb-8">
-                <p class="text-clay font-medium tracking-wide uppercase text-sm mb-2">{{ post.subtitle }}</p>
-                <h1 class="text-3xl md:text-4xl font-bold text-stone-900 font-serif mb-4">{{ post.title }}</h1>
-                <time class="text-stone-400 text-sm">{{ post.date }}</time>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 -mt-32 relative z-10">
+        <div class="bg-white p-8 md:p-16 rounded-3xl shadow-soft">
+            <div class="text-center mb-12 border-b border-stone-100 pb-10">
+                <p class="text-clay font-bold tracking-widest uppercase text-xs mb-4">{{ post.subtitle }}</p>
+                <h1 class="text-4xl md:text-5xl font-bold text-stone-900 font-serif mb-6 leading-tight">{{ post.title }}
+                </h1>
+                <time class="text-stone-400 text-sm font-medium">{{ post.date }}</time>
             </div>
 
-            <div class="prose prose-stone prose-lg mx-auto text-stone-600">
+            <div class="prose prose-stone prose-lg mx-auto text-stone-600 leading-relaxed">
                 <!-- Since we're using plain text content in JSON for this MVP, we'll just display it. 
                      In a real markdown setup, we'd use a filter like | markdown here. -->
                 {% for paragraph in post.content.split('\n') %}
-                <p class="mb-4">{{ paragraph }}</p>
+                <p class="mb-6">{{ paragraph }}</p>
                 {% endfor %}
             </div>
 
-            <div class="mt-12 pt-8 border-t border-stone-200">
-                <a href="{{ url_for('main.blog_index') }}" class="text-stone-500 hover:text-stone-900 flex items-center">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+            <div class="mt-16 pt-8 border-t border-stone-100">
+                <a href="{{ url_for('main.blog_index') }}"
+                    class="text-stone-500 hover:text-clay font-medium flex items-center transition-colors">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                    </svg>
                     Back to Blog
                 </a>
             </div>
@@ -36,4 +41,3 @@
     </div>
 </article>
 {% endblock %}
-

@@ -3,30 +3,36 @@
 {% block title %}Projects - Crafts by Cates{% endblock %}
 
 {% block content %}
-<div class="bg-stone-50 min-h-screen py-12">
+<div class="bg-stone-50 min-h-screen py-24">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-12">
-            <h1 class="text-3xl font-extrabold text-stone-900 sm:text-4xl font-serif">All Projects</h1>
-            <p class="mt-4 max-w-2xl text-xl text-stone-500 mx-auto">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h1 class="text-4xl font-bold text-stone-900 sm:text-5xl font-serif">All Projects</h1>
+            <p class="mt-6 text-xl text-stone-500 font-light">
                 Handmade with intention. A collection of my favorite makes.
             </p>
         </div>
 
-        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {% for project in projects %}
-            <a href="{{ url_for('main.project_detail', id=project.id) }}" class="flex flex-col rounded-lg shadow-lg overflow-hidden bg-white hover:shadow-xl transition-shadow">
-                <div class="flex-shrink-0">
-                    <img class="h-48 w-full object-cover" src="{{ project.image }}" alt="{{ project.title }}">
+            <a href="{{ url_for('main.project_detail', id=project.id) }}"
+                class="group flex flex-col bg-white rounded-2xl overflow-hidden shadow-soft hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div class="relative h-64 overflow-hidden">
+                    <img class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        src="{{ project.image }}" alt="{{ project.title }}">
+                    <div class="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300">
+                    </div>
                 </div>
-                <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-                    <div class="flex-1">
-                        <p class="text-sm font-medium text-clay">
-                            {{ project.category }}
-                        </p>
-                        <div class="block mt-2 group">
-                            <p class="text-xl font-semibold text-stone-900 group-hover:text-clay transition-colors">{{ project.title }}</p>
-                            <p class="mt-3 text-base text-stone-500">{{ project.description }}</p>
-                        </div>
+                <div class="flex-1 p-8 flex flex-col">
+                    <p class="text-xs font-bold tracking-widest text-clay uppercase mb-3">
+                        {{ project.category }}
+                    </p>
+                    <h3
+                        class="text-2xl font-bold text-stone-900 font-serif mb-3 group-hover:text-clay transition-colors">
+                        {{ project.title }}</h3>
+                    <p class="text-stone-500 leading-relaxed mb-6 line-clamp-3">{{ project.description }}</p>
+                    <div
+                        class="mt-auto pt-6 border-t border-stone-100 flex items-center text-clay font-medium group-hover:translate-x-2 transition-transform duration-300">
+                        View Project <span class="ml-2">&rarr;</span>
                     </div>
                 </div>
             </a>
@@ -35,4 +41,3 @@
     </div>
 </div>
 {% endblock %}
-
