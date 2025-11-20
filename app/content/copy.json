@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "h1": "Slow stitches, modern style—handmade pieces for the life you love",
+    "subheadline": "Crochet, knitting, and sewing inspired by cozy living, timeless design, and the beauty of making things by hand.",
+    "cta": "Join the Maker List",
+    "image": "/static/img/hero-landscape.webp"
+  },
+  "about": {
+    "h2": "Hi, I'm Catesby! Maker, slow fashion advocate, and lover of all things cozy",
+    "paragraphs": [
+      "I didn't grow up crocheting or knitting—I came to fiber arts later, searching for something slower, more intentional, and deeply creative. What started as a way to unwind after long days turned into a full-blown love affair with yarn, texture, and the quiet magic of making something beautiful from scratch.",
+      "Today, I craft garments, blankets, and home pieces that blend modern style with timeless comfort. Every stitch is a reminder to slow down, to create with care, and to build a wardrobe and home filled with pieces that truly matter.",
+      "Whether I'm working on a chunky knit cardigan, a delicate crochet top, or a textured throw blanket, my focus is always the same: beautiful, functional, handmade pieces crafted to be loved for years to come."
+    ],
+    "image": "/static/img/red-top-red-rocks.webp"
+  },
+  "join": {
+    "h2": "Join the maker list—your inbox, but cozier",
+    "body": [
+      "Be the first to know about new patterns, project releases, and exclusive tutorials. Plus, get behind-the-scenes notes, early access to digital downloads, and special subscriber-only discounts when the shop opens.",
+      "No spam, just slow stitches and thoughtful making—delivered straight to your inbox."
+    ],
+    "opt_ins": [
+      "Free guide to choosing yarn for garments",
+      "Early access to new crochet/knit patterns and discounts",
+      "Insider access to updates, tutorials, and pattern releases",
+      "Downloadable crochet stitch library",
+      "Monthly inspiration, free resources, and first shop access"
+    ]
+  },
+  "future": {
+    "h2": "What's coming next—patterns, tutorials, and more",
+    "body": "Crafts by Cates is growing...",
+    "offerings": [
+      "Digital Patterns",
+      "Video Tutorials",
+      "Custom Commissions",
+      "The Shop"
+    ],
+    "cta": "Join the maker list for updates, perks, early-bird pricing"
+  },
+  "footer": {
+    "site": "Crafts by Cates",
+    "tagline": "Slow stitches, modern style",
+    "links": [
+      {"name": "Instagram", "url": "https://www.instagram.com/catesbycrochets/"},
+      {"name": "TikTok", "url": "#"},
+      {"name": "Pinterest", "url": "#"},
+      {"name": "Ravelry", "url": "#"},
+      {"name": "YouTube", "url": "#"},
+      {"name": "Contact", "url": "mailto:hello@craftsbycates.com"},
+      {"name": "Privacy Policy", "url": "#"},
+      {"name": "Terms", "url": "#"}
+    ],
+    "copyright": "© 2025 Crafts by Cates. All rights reserved. Made with love, one stitch at a time."
+  }
+}
