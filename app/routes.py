@@ -1,6 +1,8 @@
 import os
 import json
-from flask import Blueprint, render_template, current_app
+from flask import Blueprint, render_template, current_app, request, jsonify
+from app.services import add_email_to_sheet
+
 
 # Define the main blueprint for our routes
 bp = Blueprint('main', __name__)
@@ -91,3 +93,24 @@ def blog_post(slug):
         return render_template('404.html', copy=copy), 404
         
     return render_template('blog_post.html', copy=copy, post=post)
+
+@bp.route('/join-maker-list', methods=['POST'])
+def join_maker_list():
+    """
+    API Endpoint to join the maker list.
+    Expects JSON: { "email": "user@example.com" }
+    """
+    data = request.get_json()
+    email = data.get('email')
+    
+    if not email:
+        return jsonify({'error': 'Email is required'}), 400
+        
+    # Basic email validation could go here
+    
+    success = add_email_to_sheet(email)
+    
+    if success:
+        return jsonify({'message': 'Successfully joined the list!'}), 200
+    else:
+        return jsonify({'error': 'Failed to join list. Please try again later.'}), 500

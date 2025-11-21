@@ -4,3 +4,6 @@ gunicorn
 flask-talisman
 whitenoise
 Pillow
+gspread
+google-auth
+
