@@ -2,7 +2,7 @@
   {
     "id": "halloween-set",
     "title": "Spooky Season Collection",
-    "description": "A spooky-cute collection featuring a pumpkin, eyeball coaster, skull applique, and a delicate spiderweb garland.",
+    "description": "A spooky-cute collection featuring a pumpkin, eyeball coaster, skull applique, hanging bats, and a delicate spiderweb garland.",
     "image": "/static/img/halloween-set.webp",
     "category": "Crochet",
     "pattern_info": "Self-drafted / Various free patterns",
@@ -21,14 +21,15 @@
   {
     "id": "dragon-hood",
     "title": "Dino Hoodie",
-    "description": "Fiery red crochet hood with yellow spikes—perfect for little dragons in training.",
+    "description": "Fiery red crochet hood with yellow spikes\u2014perfect for little dragons in training.",
     "image": "/static/img/dragon-hood.webp",
     "category": "Crochet",
-    "pattern_info": "Pattern by [Designer Name]",
+    "pattern_info": "Pattern by Nadiyjournal on Etsy",
     "time_taken": "10-12 hours",
-    "tips": "The crocodile stitch takes a lot of yarn, so make sure to buy an extra skein!",
+    "tips": "The designer uses a unique V stitch, so make sure to watch her videos!",
     "content": "Making this hood was a fun challenge. The spikes are worked separately and attached at the end.",
-    "additional_images": []
+    "additional_images": [],
+    "pattern_link": "https://www.etsy.com/listing/928923397/dinosaur-cardigan-crochet-pattern-in?ref=yr_purchases"
   },
   {
     "id": "baby-yoda",
@@ -36,14 +37,15 @@
     "description": "A tiny, powerful companion crocheted with soft green and brown yarn.",
     "image": "/static/img/baby-yoda.webp",
     "category": "Crochet",
-    "pattern_info": "Pattern found on Etsy",
-    "time_taken": "4 hours",
-    "tips": "Safety eyes can be tricky to place correctly—measure twice, click once.",
+    "pattern_info": "Pattern free on Ravelry by LarissaMaced",
+    "time_taken": "6 hours",
+    "tips": "Safety eyes can be tricky to place correctly\u2014measure twice, click once.",
     "content": "The robe is removable! This was a gift for a Star Wars fan and it was a huge hit.",
     "additional_images": [
-        "/static/img/amigurumi-trio.webp", 
-        "/static/img/amigurumi-collection.webp"
-    ]
+      "/static/img/amigurumi-trio.webp",
+      "/static/img/amigurumi-collection.webp"
+    ],
+    "pattern_link": "https://www.ravelry.com/patterns/library/baby-yoda-amigurumi-4"
   },
   {
     "id": "balloon-dog",
@@ -51,11 +53,12 @@
     "description": "A playful purple 'balloon' dog that will never pop. Soft, squishy, and fun.",
     "image": "/static/img/balloon-dog.webp",
     "category": "Crochet",
-    "pattern_info": "Free pattern online",
+    "pattern_info": "Pattern free on Ravelry by Gloria B",
     "time_taken": "3 hours",
     "tips": "Stuff firmly to keep the shape of the 'balloons'.",
-    "content": "Such a whimsical piece. It looks just like the real thing but much cuddlier.",
-    "additional_images": []
+    "content": "Such a whimsical piece. It looks just like the real thing but much cuddlier and durable.",
+    "additional_images": [],
+    "pattern_link": "http://ravelry.com/patterns/library/balloon-dog-9"
   },
   {
     "id": "cactus-tapestry",
@@ -63,13 +66,13 @@
     "description": "Desert vibes in fiber form. A colorful tapestry crochet piece featuring saguaros and sunset hues.",
     "image": "/static/img/cactus-tapestry.webp",
     "category": "Crochet",
-    "pattern_info": "Original Design",
-    "pattern_link": "",
+    "pattern_info": "Pattern free on Ravelry by Divine Debris",
+    "pattern_link": "https://www.ravelry.com/patterns/library/cool-cactus-wall-hanging",
     "time_taken": "2 weeks",
     "tips": [
       "Carry the unused yarn colors inside the stitches for a cleaner back.",
       "Use bobbins for each color to prevent tangling.",
-      "Count your stitches carefully—tapestry crochet mistakes are hard to fix!"
+      "Count your stitches carefully\u2014tapestry crochet mistakes are hard to fix!"
     ],
     "challenges": [
       "Managing multiple yarn colors at once was tricky at first.",
@@ -79,13 +82,13 @@
     "helpful_tips": [
       "Start with a smaller swatch to practice the color changes before committing to the full piece.",
       "A yarn bowl or yarn guide helps keep multiple strands organized.",
-      "Blocking really makes the design pop—don't skip it!"
+      "Blocking really makes the design pop\u2014don't skip it!"
     ],
     "narrative": [
-      "I was inspired by a trip to Arizona last spring. The way the sunset painted the desert landscape in oranges, purples, and soft browns stuck with me, and I knew I had to capture it in yarn.",
-      "This was my first large-scale tapestry crochet project, and I learned so much along the way. The technique of carrying unused yarn inside the stitches creates a clean back, but it does make the piece thicker and stiffer than regular crochet.",
+      "I was inspired to make a tapestry while traveling. The use of simple sc made it approachable, but the color changes kept it interesting!",
+      "The technique of carrying unused yarn inside the stitches creates a clean back, but it does make the piece thicker and stiffer than regular crochet.",
       "The most challenging part was the cactus shapes. I had to follow a detailed chart and count stitches carefully to get the proportions right. There were definitely a few rows I had to frog and redo!",
-      "Now it hangs in my living room and brings back those warm desert memories every time I see it. The colors are so cozy and inviting."
+      "Now it hangs in my living room. The colors are so cozy and inviting."
     ],
     "additional_images": [
       "/static/img/cactus.webp",
@@ -97,17 +100,18 @@
   {
     "id": "hexagon-bag",
     "title": "Honeycomb Market Tote",
-    "description": "Mustard and cream hexagon tote bag—sturdy, stylish, and perfect for market days.",
+    "description": "Mustard and cream hexagon tote bag\u2014sturdy, stylish, and perfect for market days.",
     "image": "/static/img/hexagon-bag.webp",
     "category": "Crochet",
-    "pattern_info": "Modified Granny Hexagon Pattern",
+    "pattern_info": "Inspired by free pattern on Ravelry by Lindsey Dale",
     "time_taken": "1 week",
     "tips": "Join the hexagons as you go to save time on sewing later.",
-    "content": "This bag is surprisingly roomy. I lined it with cotton fabric to prevent stretching.",
+    "content": "This bag is surprisingly roomy. I recommend lining with cotton to keep it sturdy.",
     "additional_images": [
-        "/static/img/yellow-handbag.webp",
-        "/static/img/orange-bag.webp"
-    ]
+      "/static/img/yellow-handbag.webp",
+      "/static/img/orange-bag.webp"
+    ],
+    "pattern_link": "https://www.ravelry.com/patterns/library/hexagon-tote-bag"
   },
   {
     "id": "blue-crop-top",
@@ -116,9 +120,9 @@
     "image": "/static/img/blue-crop-top.webp",
     "category": "Crochet",
     "pattern_info": "Self-drafted",
-    "time_taken": "8 hours",
+    "time_taken": "10 hours",
     "tips": "Measure against a favorite tank top for the perfect fit.",
-    "content": "A summer staple. The textured stitch adds interest without being too heavy.",
+    "content": "A summer staple. The textured lemon peel stitch adds interest without being too heavy, and is perfectly opaque.",
     "additional_images": [
       "/static/img/blue-tanktop.webp",
       "/static/img/blue-tanktop-2.webp"
@@ -126,17 +130,16 @@
   },
   {
     "id": "star-blanket",
-    "title": "Pastel Star Blanket",
+    "title": "Rainbow Ripple Baby Blanket",
     "description": "Rainbow star-shaped baby blanket. Ripples of soft color for the little ones.",
     "image": "/static/img/star-blanket.webp",
     "category": "Crochet",
-    "pattern_info": "Classic Star Blanket Pattern",
+    "pattern_info": "Pattern free on Ravelry by Celeste Young",
     "time_taken": "3 weeks",
     "tips": "Count your stitches every few rounds to ensure the points stay sharp.",
     "content": "Made with super soft baby yarn. The star shape drapes beautifully.",
-    "additional_images": [
-        
-    ]
+    "additional_images": [],
+    "pattern_link": "https://www.ravelry.com/patterns/library/rainbow-ripple-baby-blanket"
   },
   {
     "id": "onion-tapestry",
@@ -144,179 +147,182 @@
     "description": "Detailed tapestry crochet panel featuring garlic in earthy tones.",
     "image": "/static/img/onion-tapestry.webp",
     "category": "Crochet",
-    "pattern_info": "Vintage pattern book",
+    "pattern_info": "Pattern from okaysure.biz on Instagram",
     "time_taken": "1 month",
     "tips": "Use bobbins for color changes to avoid tangles.",
-    "content": "This piece hangs in my kitchen now. It adds such a warm, homey feel.",
+    "content": "This piece was a gift for family. It has such a warm, homey feel.",
     "additional_images": []
   },
   {
     "id": "table-runner",
-    "title": "Easter Table Runner",
-    "description": "A delicate filet crochet table runner—a secret gift made with love for family holidays.",
+    "title": "Gingham Easter Table Runner",
+    "description": "A delicate single crochet table runner\u2014a secret gift made with love for family holidays.",
     "image": "/static/img/table-runner.webp",
     "category": "Crochet",
-    "pattern_info": "Filet Crochet Chart",
+    "pattern_info": "Pattern free on Ravelry from Tonya Bush",
     "time_taken": "2 weeks",
-    "tips": "Blocking is essential for filet crochet to reveal the image clearly. Measure the table first!",
+    "tips": "Consistent tension makes the gingham pattern stand out. Measure the table first!",
     "content": "This was an Easter present for my boyfriend's grandmother because we enjoy spending holidays with them. I secretly measured out the table and crocheted this for them, then gave it to them as a gift!",
     "additional_images": [
       "/static/img/table-runner-long.webp",
       "/static/img/table-runner-short.webp",
       "/static/img/table-runner-folded.webp",
       "/static/img/table-runner-bunny.webp"
-    ]
+    ],
+    "pattern_link": "https://www.ravelry.com/patterns/library/gingham-bunny-table-runner"
   },
   {
     "id": "purple-cardigan",
-    "title": "Lilac Lace Cardigan",
-    "description": "Lace-weight purple cardigan with a tie-front. Delicate, airy, and romantic.",
+    "title": "Purple Tie Sweater",
+    "description": "Purple sweater with side ties. Cozy and great for layering.",
     "image": "/static/img/purple-cardigan.webp",
     "category": "Crochet",
-    "pattern_info": "Pattern from Ravelry",
-    "time_taken": "3 weeks",
-    "tips": "Check gauge carefully! Lace stitches can stretch.",
-    "content": "The perfect layer for spring dresses. I love the bell sleeves.",
-    "additional_images": [
-        
-    ]
+    "pattern_info": "Pattern purchased on Etsy from DaisyandPeace",
+    "time_taken": "5 weeks",
+    "tips": "Work the shoulder seems delicately to ensure the material falls nicely. Practice the yarn over slip stitch if its your first time!",
+    "content": "The ties add a nice touch and help the piece fit well. Perfect for cool evenings.",
+    "additional_images": [],
+    "pattern_link": "https://www.etsy.com/listing/1635243075/crochet-ribbed-vest-pattern-side-tie?ref=yr_purchases"
   },
   {
     "id": "purple-vest",
-    "title": "Chunky Knit Vest",
-    "description": "Chunky knit purple vest. The perfect layering piece for crisp outdoor walks.",
+    "title": "Pink Cardigan",
+    "description": "Pink cardigan with a tie-front. Delicate, airy, and romantic.",
     "image": "/static/img/purple-vest.webp",
     "category": "Knitting",
-    "pattern_info": "Self-drafted",
+    "pattern_info": "Pattern free on Ravelry from Seema Persaud",
     "time_taken": "1 weekend",
-    "tips": "Use large needles for a quick and satisfying project.",
-    "content": "It's so warm and cozy! I wear it all the time in autumn.",
+    "tips": "Blocking helps open up the mesh pattern and gives it a professional finish.",
+    "content": "This is a favorite for afternoons at the farmers market.",
     "additional_images": [
       "/static/img/pink-cardigan.webp",
       "/static/img/pink-cardigan-2.webp"
-    ]
+    ],
+    "pattern_link": "https://www.ravelry.com/patterns/library/mesh-beachside-cardigan"
   },
   {
     "id": "ziggy-rescue-bag",
-    "title": "Ziggy's Rescue Bag",
-    "description": "A crocheted rescue bag costume for my St. Bernard, Ziggy—handmade Halloween magic instead of fast fashion.",
+    "title": "Ziggy's Rescue Barrel",
+    "description": "A crocheted rescue barrel costume for my St. Bernard mix, Ziggy. Handmade Halloween magic!",
     "image": "/static/img/ziggy-st-bernard.webp",
     "category": "Crochet",
-    "pattern_info": "Self-drafted",
+    "pattern_info": "Pattern inspired by free design by Jennifer Gregory on Ravelry",
     "time_taken": "1 week",
-    "tips": "Measure your dog carefully and add extra room for movement. Use durable yarn that can handle some wear!",
-    "content": "This was a project where I crocheted the rescue bag for my dog Ziggy since he is a St. Bernard and this was his Halloween costume this year. It's so gratifying to create a costume for him instead of spending money on something fast fashion.",
-    "additional_images": []
+    "tips": "Easily adjust size of the barrel by adding and removing rounds. Use durable yarn that can handle some wear!",
+    "content": "This was a project where I crocheted the rescue bag for my dog Ziggy since he is a St. Bernard and this was his Halloween costume this year. I was shocked at the prices online to order one! I was very happy with this result, creating a homemade costume and getting to learn new techniques along the way.",
+    "additional_images": [],
+    "pattern_link": "https://www.ravelry.com/patterns/library/whisky-barrell-pouch-for-saint-bernards"
   },
   {
     "id": "floral-koozies",
-    "title": "Floral Can Koozies",
-    "description": "Bright and blooming drink holders to keep your beverages cold and your hands happy.",
+    "title": "Flower Basket Coasters",
+    "description": "Bright and blooming drink coasters to set your drink on.",
     "image": "/static/img/koozie-flowers.webp",
     "category": "Crochet",
-    "pattern_info": "Free pattern",
+    "pattern_info": "Free tutorial on Youtube by ElyseCrochets",
     "time_taken": "2 hours",
     "tips": "Use cotton yarn for better absorbency and durability.",
     "content": "These make such quick, fun gifts. I loved experimenting with different color combinations for the petals.",
     "additional_images": [
-        "/static/img/koozie-flowers-2.webp"
-    ]
+      "/static/img/koozie-flowers-2.webp"
+    ],
+    "pattern_link": "https://youtu.be/b8_hkP3tV0w?si=Kz-ZEWTkevSb9Ogb"
   },
   {
     "id": "dumpling-pouches",
-    "title": "Crab Rangoon Pillows",
-    "description": "Adorable drawstring pouches shaped like crab rangoons—perfect for holding dice, jewelry, or notions.",
+    "title": "Dice bags",
+    "description": "Adorable drawstring pouches perfect for holding dice, jewelry, or notions.",
     "image": "/static/img/dumpling-pouches.webp",
     "category": "Crochet",
-    "pattern_info": "Pattern by [Designer Name]",
+    "pattern_info": "Pattern free on Ravelry by Suzanne Carlson",
     "time_taken": "4 hours",
     "tips": "Pull the drawstring tight to get that perfect shape.",
-    "content": "I made a whole batch of these for my D&D group. They are surprisingly spacious inside!",
-    "additional_images": []
+    "content": "These make the perfect gift for my tabletop gaming friends. So cute and functional!",
+    "additional_images": [],
+    "pattern_link": "https://www.ravelry.com/patterns/library/quick-dice-bag"
   },
   {
     "id": "dog-blanket",
-    "title": "Cozy Pet Blanket",
+    "title": "Cozy Pawprint Blanket",
     "description": "A durable, washable, and extra-cozy blanket crocheted specially for four-legged family members.",
     "image": "/static/img/dog-blanket.webp",
     "category": "Crochet",
-    "pattern_info": "Corner-to-corner (C2C)",
-    "time_taken": "1 week",
-    "tips": "Choose a machine-washable yarn—pets can be messy!",
-    "content": "My dog absolutely loves this blanket. It's thick enough to provide padding but soft enough for snuggles.",
-    "additional_images": []
+    "pattern_info": "Pattern free on Ravelry by Jo Edwards",
+    "time_taken": "1 month",
+    "tips": "Choose a machine-washable yarn. Pets can be messy!",
+    "content": "The pattern uses only single crochets, so it is a great project to work while your favorite show is on.",
+    "additional_images": [],
+    "pattern_link": "https://www.ravelry.com/patterns/library/paw-print-blanket-3"
   },
   {
     "id": "crochet-purse",
-    "title": "Boho Textured Purse",
-    "description": "A sturdy and stylish crochet purse with rich texture, perfect for carrying essentials.",
+    "title": "Sunshine Granny Square Purse",
+    "description": "A sturdy and stylish crochet shoulder bag with rich texture, perfect for carrying essentials.",
     "image": "/static/img/crochet-purse.webp",
     "category": "Crochet",
-    "pattern_info": "Self-drafted",
+    "pattern_info": "Construction self designed. Granny square pattern free on Ravelry by Annanitato Lolo",
     "time_taken": "1 week",
     "tips": "Line the bag with fabric to prevent small items from poking through.",
-    "content": "I wanted a bag that was both functional and cute. The strap is reinforced so it doesn't stretch out.",
-    "additional_images": [
-      
-    ]
+    "content": "I wanted a bag that was both functional and cute. I was able to work through lots of scrap yarn making the granny squares.Get creative with your favorite stitch for the strap!",
+    "additional_images": [],
+    "pattern_link": "https://www.ravelry.com/patterns/library/sun-granny-square-5"
   },
   {
     "id": "sunflower-set",
-    "title": "Sunflower Fields Collection",
+    "title": "Daisy Fields Collection",
     "description": "A cheerful set featuring a statement cardigan and matching bucket hat, adorned with crochet sunflowers.",
     "image": "/static/img/sunflower-cardigan.webp",
     "category": "Crochet",
-    "pattern_info": "Modified cardigan pattern",
+    "pattern_info": "Cardigan construction self designed. Daisy granny square pattern from AllAboutAmi's Cozy Days Daisy Blanket Crochet Pattern",
     "time_taken": "3 weeks",
-    "tips": "Sew the sunflowers on securely so they don't flop over.",
-    "content": "Wearing this set feels like carrying a bit of summer with you. It's so vibrant and fun.",
+    "tips": "I used a mattress stitch to seem the granny squares together! A slip stitch or whip stitch could work too. ",
+    "content": "I made the sweater for a friend who reminds me to stop and smell the daisies! It's so vibrant and fun.",
     "additional_images": [
-        "/static/img/pink-sunflower-cardigan.webp",
-        "/static/img/pink-sunflower-hat.webp",
-        "/static/img/pink-sunflower-hat-2.webp"
-    ]
+      "/static/img/pink-sunflower-cardigan.webp",
+      "/static/img/pink-sunflower-hat.webp",
+      "/static/img/pink-sunflower-hat-2.webp"
+    ],
+    "pattern_link": "https://www.etsy.com/listing/1419574081/cozy-days-daisy-blanket-crochet-pattern?ls=r&ref=purchases_similar_listings-2&sts=1&dd=1&content_source=c1a138a017e6e312f3e8da3c43cb8ca6%253ALT8f2d4326502393637d76b5ba20e031561f103f59&logging_key=c1a138a017e6e312f3e8da3c43cb8ca6%3ALT8f2d4326502393637d76b5ba20e031561f103f59"
   },
   {
     "id": "amigurumi-cats",
-    "title": "Whimsical Amigurumi Cats",
+    "title": "Reversible Moody Cat",
     "description": "Cute and cuddly crochet cats in soft blues and grays.",
     "image": "/static/img/blue-cat.webp",
     "category": "Crochet",
-    "pattern_info": "Amigurumi pattern",
+    "pattern_info": "Youtube tutorial by Colorcarnival",
     "time_taken": "6 hours each",
     "tips": "Embroider the face details carefully to give them character.",
-    "content": "These little kitties are the perfect desk companions. I made a blue one and a gray one.",
+    "content": "I honestly thought this was a huge fail! My sizing wasn't perfect but the yarn is so soft, it still made a great gift for my niece. It can flip inside out to show different expressions.",
     "additional_images": [
-        "/static/img/gray-cat.webp"
-    ]
+      "/static/img/gray-cat.webp"
+    ],
+    "pattern_link": "https://www.youtube.com/watch?v=Pin_Fj_z2Z4"
   },
   {
     "id": "red-rocks-top",
     "title": "Red Rocks Summer Top",
-    "description": "A lightweight rust-colored top, photographed against the stunning backdrop of Red Rocks.",
+    "description": "A lightweight red top, photographed against the stunning backdrop of Red Rocks.",
     "image": "/static/img/red-top-red-rocks.webp",
     "category": "Crochet",
-    "pattern_info": "Self-drafted",
+    "pattern_info": "The Demeter Top on Etsy by LizAndHook",
     "time_taken": "10 hours",
     "tips": "Cotton blend yarn is best for summer wearables.",
-    "content": "This top was a joy to make and wear. The color matches the rocks perfectly!",
-    "additional_images": [
-       
-    ]
+    "content": "This top was a joy to make and wear. I made it in green too!",
+    "additional_images": [],
+    "pattern_link": "https://www.etsy.com/listing/1251706361/the-demeter-top-crochet-pattern?ref=yr_purchases"
   },
   {
     "id": "scrappy-sweater",
-    "title": "Multicolor Scrappy Sweater",
-    "description": "The viral Taylor Swift crocheted sweater. I put this together for a family member and she cried when she saw it. Vibrant and stylish.",
+    "title": "The Taylor Swift Crochet Dress",
+    "description": "The viral Taylor Swift crocheted dress. I put this together for a family member and she absolutely loved it. Vibrant and stylish.",
     "image": "/static/img/multicolor-cardigan.webp",
     "category": "Knitting",
-    "pattern_info": "Improvised",
+    "pattern_info": "Pattern on Etsy by TheEasyDesign",
     "time_taken": "1 month",
     "tips": "Weave in ends as you go to avoid a massive job at the end.",
-    "content": "I love that this sweater tells a story of all my past projects. Every stripe is a memory.",
-    "additional_images": [
-       
-        
-    ]
+    "content": "I love the colors and flowy style of this dress.",
+    "additional_images": [],
+    "pattern_link": "https://www.etsy.com/listing/1793106337/taylor-crochet-dress-pattern-crochet?ref=yr_purchases"
   }
 ]
